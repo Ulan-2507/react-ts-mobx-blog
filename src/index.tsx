@@ -9,7 +9,6 @@ import { StoreProvider } from "./store/storeContext";
 import { RootStore } from "./store/RootStore";
 
 const store = new RootStore();
-console.log(store);
 
 ReactDOM.render(
   <StoreProvider store={store}>
